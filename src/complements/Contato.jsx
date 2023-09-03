@@ -1,3 +1,5 @@
+import './Contato.css'
+
 export default function Contato(){
 
     return(
@@ -6,7 +8,7 @@ export default function Contato(){
                 <h2>Entre em Contato</h2>
             </section>
             <section className="form">
-                <form action="post">
+                <form action="#">
                 <div>
                     <label for="l-contato">E-mail de contato:</label>
                     <input type="text" id="txt-contato" name="contato" required autofocus/>
