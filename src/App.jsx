@@ -1,6 +1,6 @@
 import { Outlet } from 'react-router-dom'
-import Contato from "./complements/Contato"
-import Header from "./complements/Header"
+import Header from "./components/Header"
+import Contato from './routes/Contato/index.jsx';
 import './App.css'
 
 function App() {
@@ -8,6 +8,7 @@ function App() {
   return (
     <>
       <Header/>
+      <Outlet/>
       <Contato/>
     </>
   )
